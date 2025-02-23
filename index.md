@@ -1340,18 +1340,6 @@ plt.ylabel('Average Position Last 5 Years')
 plt.show()
 ```
 
-
-    
-![png](output_12_0.png)
-    
-
-
-
-    
-![png](output_12_1.png)
-    
-
-
 The first two boxplots show that the more money teams spent the lower their position is. The lower the position the stronger the performance as the position is a ranking compared to other clubs (meaning 1 is first place and 2 is second place). This plot shows that the more money premier league clubs spend the lower their position which means the better their performance is. This is true in the last 10 years and the last 5 years. 
 
 
@@ -1366,18 +1354,7 @@ plt.title('Average Points vs Money Spent Last 5 Years')
 plt.xlabel('Total Money Spent Last 5 Years (In Millions)')
 plt.ylabel('Average Points Last 5 Years')
 plt.show()
-```
-
-
-    
-![png](output_14_0.png)
-    
-
-
-
-    
-![png](output_14_1.png)
-    
+```  
 
 
 The second group of two boxplots shows a similar analysis. These two plots show that the more money premier league teams spend the more points they accrue through the season which means their performance gets better as the team spends more money. This is also true throughout the last 5 and 10 years.
@@ -1398,18 +1375,6 @@ plt.ylabel('Average Allowed Last 10 Years')
 plt.show()
 ```
 
-
-    
-![png](output_17_0.png)
-    
-
-
-
-    
-![png](output_17_1.png)
-    
-
-
 The two boxplots do support the conclusions made from the previous box plots as in both situations the more money teams spend the better their performances were, they let up fewer goals and score more goals. However, the assumption that offense is more greatly affected compared to defense by money is false as shown by the boxplots. The relationship between goals allowed and money spent is more linear than the relationship between goals scored and money spent. Money is actually a bigger factor in building a team’s defense than their attack which means other factors like coaching and tactics most likely have a bigger effect on a team's offense. 
 
 Lastly, I wanted to analyze which teams were spending their money wisely. To do this I decided to plot bar graphs that will show how each team performed in a certain metric, the metrics I created. The first plot graphs the points per money spent for each team the higher the metric the better the team performed for the money they spent. The second plot graphs the position per money spent and the third plot graphs the goals per money spent. In each plot the higher the metric the better the team performed for the money they spent.
@@ -1429,19 +1394,6 @@ plt.ylabel('PPMS5')
 plt.show()
 ```
 
-
-    
-![png](output_20_0.png)
-    
-
-
-
-    
-![png](output_20_1.png)
-    
-
-
-
 ```python
 analysis.plot(x='Club', y='GPMS5', kind='bar') 
 plt.title('Goals Scored Per Money Spent Last 5 Years')
@@ -1449,12 +1401,6 @@ plt.xlabel('Premier League Clubs')
 plt.ylabel('GFPMS5')
 plt.show()
 ```
-
-
-    
-![png](output_21_0.png)
-    
-
 
 These bar graphs show the teams that have spent their money wisely in the premier league. Teams like Southampton, Burnley, Crystal Palace, and Leeds United perform well in my calculations. All of these teams mentioned don’t frivolously spend money as they aren’t raking in money from revenue like other clubs. However, they continue to perform well in the premier league and these plots show that they perform well compared to the money they spend. 
 

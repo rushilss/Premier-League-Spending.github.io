@@ -23,7 +23,6 @@ epl_standings
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -35,7 +34,6 @@ epl_standings
     .dataframe thead th {
         text-align: right;
     }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -240,7 +238,6 @@ transfer_table
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -252,7 +249,6 @@ transfer_table
     .dataframe thead th {
         text-align: right;
     }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -503,7 +499,6 @@ nr
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -515,7 +510,6 @@ nr
     .dataframe thead th {
         text-align: right;
     }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -698,7 +692,6 @@ ntr
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -710,7 +703,6 @@ ntr
     .dataframe thead th {
         text-align: right;
     }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1066,7 +1058,6 @@ analysis
 
 
 <div>
-<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -1078,7 +1069,6 @@ analysis
     .dataframe thead th {
         text-align: right;
     }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
